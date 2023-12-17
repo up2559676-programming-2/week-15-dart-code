@@ -13,10 +13,14 @@
 3. Hello World in Dart
 
 ## Chapter 2: Variables and Data Types
+
+### 2.1: Variables
 1. Variables: declaring data types and assigning values
-2. Data types: int, double, num, String, bool, dynamic, var, const, 
-3. Operators: +, -, *, /, %, ~/ (integer division), ++, --, +=, -=, *=, /=, %=, ~/=
-4. Type conversion: int.parse(), double.parse(), toString(), toInt(), toDouble()
+2. Data types: int, double, num, String, bool, dynamic, var, const, final
+
+### 2.2: Operators and Type Conversion
+1. Operators: +, -, *, /, %, ~/ (integer division), ++, --, +=, -=, *=, /=, %=, ~/=
+2. Type conversion: int.parse(), double.parse(), toString(), toInt(), toDouble()
 
 ## Chapter 3: Writing longer programs
 1. Defining functions and calling them within main()
