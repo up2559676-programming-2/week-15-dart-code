@@ -1,3 +1,8 @@
+void greet(String name) {
+  print('Hello, $name!');
+}
+
 void main() {
-  print('Hello, World!');
+  String myName = 'Alice';
+  greet(myName);
 }
