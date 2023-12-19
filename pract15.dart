@@ -6,7 +6,10 @@ void main() {
   // double time = 9.58;
   // speedCalculator(distance, time);
 
-  typeConversion();
+  // typeConversion();
+
+  String greetings = getGreetings();
+  print(greetings);
 }
 
 int multiplyBy2(int number) {
@@ -44,4 +47,14 @@ void typeConversion() {
   i = int.parse(iAsString); // 5
   d = double.parse(dAsString); // 10.65
   print("i: $i, d: $d");
+}
+
+String getGreetings() {
+  String arabic = 'مرحبا';
+  String hindi = 'नमस्ते';
+  String russian = 'Привет';
+  String chinese = '你好';
+  String emoji = '👋';
+
+  return '$arabic, $hindi, $russian, $chinese, $emoji';
 }
