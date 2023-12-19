@@ -2,9 +2,11 @@ void main() {
   // int result = multiplyBy2(5);
   // print('Result: $result');
 
-  int distance = 100;
-  double time = 9.58;
-  speedCalculator(distance, time);
+  // int distance = 100;
+  // double time = 9.58;
+  // speedCalculator(distance, time);
+
+  typeConversion();
 }
 
 int multiplyBy2(int number) {
@@ -14,4 +16,32 @@ int multiplyBy2(int number) {
 void speedCalculator(int distance, double time) {
   double speed = distance / time;
   print('Speed: $speed');
+}
+
+void typeConversion() {
+  int i = 5;
+  double d = 10.65;
+  print("i: $i, d: $d");
+
+  // to integer
+  int dAsInt = d.toInt(); // 10
+  int dFloor = d.floor(); // 10
+  int dCeil = d.ceil(); // 11
+  int dRounded = d.round(); // 11
+  print("dAsInt: $dAsInt, dFloor: $dFloor, dCeil: $dCeil, dRounded: $dRounded");
+
+  // to double
+  double iAsDouble = i.toDouble(); // 5.0
+  print("iAsDouble: $iAsDouble");
+
+  // to string
+  String iAsString = i.toString(); // "5"
+  String dAsString = d.toString(); // "10.65"
+  String dAsFixed = d.toStringAsFixed(1); // "10.7"
+  print("iAsString: $iAsString, dAsString: $dAsString, dAsFixed: $dAsFixed");
+
+  // from string
+  i = int.parse(iAsString); // 5
+  d = double.parse(dAsString); // 10.65
+  print("i: $i, d: $d");
 }
