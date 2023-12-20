@@ -1,3 +1,5 @@
+import 'dart:io';
+
 void main() {
   // int result = multiplyBy2(5);
   // print('Result: $result');
@@ -8,8 +10,10 @@ void main() {
 
   // typeConversion();
 
-  String greetings = getGreetings();
-  print(greetings);
+  // String greetings = getGreetings();
+  // print(greetings);
+
+  askForStudentNumber();
 }
 
 int multiplyBy2(int number) {
@@ -62,4 +66,11 @@ String getGreetings() {
 void birthdayMessage(String name, int ageLastYear) {
   print("Happy " + (ageLastYear + 1).toString() + "th birthday, " + name + "!");
   print("Happy ${ageLastYear + 1}th birthday, $name!");
+}
+
+void askForStudentNumber() {
+  print("What is your student number?");
+  String? input = stdin.readLineSync();
+  int studentNumber = int.parse(input!);
+  print("Your student number is $studentNumber");
 }
