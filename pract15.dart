@@ -58,3 +58,8 @@ String getGreetings() {
 
   return '$arabic, $hindi, $russian, $chinese, $emoji';
 }
+
+void birthdayGreeting(String name, int ageLastYear) {
+  print("Happy " + (ageLastYear + 1).toString() + "th birthday, " + name + "!");
+  print("Happy ${ageLastYear + 1}th birthday, $name!");
+}
