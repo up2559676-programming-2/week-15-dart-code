@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'dart:math';
 
 void main() {
   // int result = multiplyBy2(5);
@@ -13,7 +14,9 @@ void main() {
   // String greetings = getGreetings();
   // print(greetings);
 
-  askForStudentNumber();
+  // askForStudentNumber();
+
+  circumferenceOfCircle();
 }
 
 int multiplyBy2(int number) {
@@ -73,4 +76,12 @@ void askForStudentNumber() {
   String? input = stdin.readLineSync();
   int studentNumber = int.parse(input!);
   print("Your student number is $studentNumber");
+}
+
+void circumferenceOfCircle() {
+  print('Enter the radius of a circle:');
+  String? radiusInput = stdin.readLineSync();
+  double radius = double.parse(radiusInput!);
+  double circumference = 2 * pi * radius;
+  print('Circumference: ${circumference.toStringAsFixed(2)}');
 }
