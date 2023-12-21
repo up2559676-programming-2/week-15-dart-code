@@ -2,8 +2,8 @@ import 'dart:io';
 import 'dart:math';
 
 void main() {
-  // int result = multiplyBy2(5);
-  // print('Result: $result');
+  int result = multiplyBy2(5);
+  print('Result: $result');
 
   // int distance = 100;
   // double time = 9.58;
@@ -18,7 +18,7 @@ void main() {
 
   // circumferenceOfCircle();
 
-  pizzaOrder();
+  // pizzaOrder();
 }
 
 int multiplyBy2(int number) {
