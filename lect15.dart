@@ -1,11 +1,16 @@
-void main() {
-  // String myName = 'Alice';
-  // greet(myName);
+import 'dart:io';
+import 'dart:math';
 
-  int a = 5;
-  double b = 10.0;
-  double result = secret(a, b);
-  print(result);
+void main() {
+  String myName = 'Alice';
+  greet(myName);
+
+  // int a = 5;
+  // double b = 10.0;
+  // double result = secret(a, b);
+  // print(result);
+
+  // print(calculateNaturalLog());
 }
 
 void greet(String name) {
@@ -32,4 +37,12 @@ double secret(int x, double y) {
   x++;
   double result = x * y;
   return result;
+}
+
+String calculateNaturalLog() {
+  print('Enter a number: ');
+  String? input = stdin.readLineSync();
+  double number = double.parse(input!);
+  double result = log(number);
+  return "The natural log of $number is ${result.toStringAsFixed(2)}";
 }
