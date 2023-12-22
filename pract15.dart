@@ -25,9 +25,9 @@ int multiplyBy2(int number) {
   return number * 2;
 }
 
-void speedCalculator(int distance, double time) {
-  double speed = distance / time;
-  print('Speed: $speed');
+void speedCalculator(int miles, int hours) {
+  double speed = miles / hours;
+  print('Speed in mph: $speed');
 }
 
 void typeConversion() {
