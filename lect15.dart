@@ -3,7 +3,8 @@ import 'dart:math';
 
 void main() {
   String myName = 'Alice';
-  greet(myName);
+  String greeting = greet(myName);
+  print(greeting);
 
   // int a = 5;
   // double b = 10.0;
@@ -13,8 +14,8 @@ void main() {
   // print(calculateNaturalLog());
 }
 
-void greet(String name) {
-  print('Hello, $name!');
+String greet(String name) {
+  return 'Hello $name';
 }
 
 double celsiusToFahrenheit(double celsius) {
