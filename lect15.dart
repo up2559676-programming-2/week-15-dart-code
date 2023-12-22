@@ -12,6 +12,11 @@ void main() {
   // print(result);
 
   // print(calculateNaturalLog());
+
+  // double portsToLondon = 73.6;
+  // int hours = 2;
+  // double mySpeed = speedCalculator(portsToLondon, hours);
+  // print('Average speed in mph: $mySpeed');
 }
 
 String greet(String name) {
@@ -46,4 +51,9 @@ String calculateNaturalLog() {
   double number = double.parse(input!);
   double result = log(number);
   return "The natural log of $number is ${result.toStringAsFixed(2)}";
+}
+
+double speedCalculator(double distance, int hours) {
+  double speed = distance / hours;
+  return speed;
 }
