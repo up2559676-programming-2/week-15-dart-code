@@ -15,7 +15,7 @@ A repository containing the examples from the worksheet and lecture.
 Navigate to the directory containing the code with the `cd` command, see below for an example. For more information, refer to [these step-by-step instructions](https://sl.bing.net/jg0O1D00KaW).
 
 ```bash
-cd ~/Documents/programming/week-15-dart-code
+cd ~/Documents/dartProgramming/week-15-dart-code
 ```
 
 Then, run the code with the `dart` command, for example:
