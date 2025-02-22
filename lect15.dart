@@ -2,6 +2,8 @@ import 'dart:io';
 import 'dart:math';
 
 void main() {
+  // Comment and uncomment the code below to test the functions (Ctrl + /) 
+
   String myName = 'Alice';
   String greeting = greet(myName);
   print(greeting);
