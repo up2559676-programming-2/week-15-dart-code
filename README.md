@@ -12,7 +12,7 @@ A repository containing the examples from the worksheet and lecture.
 
 ## Running the code
 
-Navigate to the directory containing the code with the `cd` command, see below for an example. For more information, refer to [these step-by-step instructions]([https://chatgpt.com/share/67b54ef5-e9bc-8013-bf14-a0cbede90e95)).
+Navigate to the directory containing the code with the `cd` command, see below for an example. For more information, refer to [these step-by-step instructions](https://chatgpt.com/share/67b54ef5-e9bc-8013-bf14-a0cbede90e95).
 
 ```bash
 cd ~/Documents/dartProgramming/week-15-dart-code
