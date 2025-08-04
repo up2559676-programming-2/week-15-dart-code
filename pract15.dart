@@ -24,8 +24,8 @@ void typeConversion() {
   int dAsInt = d.toInt(); // 10
   int dFloor = d.floor(); // 10
   int dCeil = d.ceil(); // 11
-  int dRounded = d.round(); // 11
-  print("dAsInt: $dAsInt, dFloor: $dFloor, dCeil: $dCeil, dRounded: $dRounded");
+  int dRound = d.round(); // 11
+  print("dAsInt: $dAsInt, dFloor: $dFloor, dCeil: $dCeil, dRound: $dRound");
 
   // to double
   double iAsDouble = i.toDouble(); // 5.0
